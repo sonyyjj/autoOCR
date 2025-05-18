@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		129A776B2DD9BDFD007F0390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 129A77542DD9BDFB007F0390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 129A775B2DD9BDFB007F0390;
+			remoteInfo = autoOCR;
+		};
+		129A77752DD9BDFD007F0390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 129A77542DD9BDFB007F0390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 129A775B2DD9BDFB007F0390;
+			remoteInfo = autoOCR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129A775C2DD9BDFB007F0390 /* autoOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = autoOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		129A776A2DD9BDFD007F0390 /* autoOCRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoOCRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		129A77742DD9BDFD007F0390 /* autoOCRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = autoOCRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		129A77882DDA2C55007F0390 /* Exceptions for "autoOCR" folder in "autoOCR" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 129A775B2DD9BDFB007F0390 /* autoOCR */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		129A775E2DD9BDFB007F0390 /* autoOCR */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				129A77882DDA2C55007F0390 /* Exceptions for "autoOCR" folder in "autoOCR" target */,
+			);
+			path = autoOCR;
+			sourceTree = "<group>";
+		};
+		129A776D2DD9BDFD007F0390 /* autoOCRTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = autoOCRTests;
+			sourceTree = "<group>";
+		};
+		129A77772DD9BDFD007F0390 /* autoOCRUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = autoOCRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129A77592DD9BDFB007F0390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129A77672DD9BDFD007F0390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129A77712DD9BDFD007F0390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129A77532DD9BDFB007F0390 = {
+			isa = PBXGroup;
+			children = (
+				129A775E2DD9BDFB007F0390 /* autoOCR */,
+				129A776D2DD9BDFD007F0390 /* autoOCRTests */,
+				129A77772DD9BDFD007F0390 /* autoOCRUITests */,
+				129A775D2DD9BDFB007F0390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		129A775D2DD9BDFB007F0390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				129A775C2DD9BDFB007F0390 /* autoOCR.app */,
+				129A776A2DD9BDFD007F0390 /* autoOCRTests.xctest */,
+				129A77742DD9BDFD007F0390 /* autoOCRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		129A775B2DD9BDFB007F0390 /* autoOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129A777E2DD9BDFD007F0390 /* Build configuration list for PBXNativeTarget "autoOCR" */;
+			buildPhases = (
+				129A77582DD9BDFB007F0390 /* Sources */,
+				129A77592DD9BDFB007F0390 /* Frameworks */,
+				129A775A2DD9BDFB007F0390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				129A775E2DD9BDFB007F0390 /* autoOCR */,
+			);
+			name = autoOCR;
+			packageProductDependencies = (
+			);
+			productName = autoOCR;
+			productReference = 129A775C2DD9BDFB007F0390 /* autoOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		129A77692DD9BDFD007F0390 /* autoOCRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129A77812DD9BDFD007F0390 /* Build configuration list for PBXNativeTarget "autoOCRTests" */;
+			buildPhases = (
+				129A77662DD9BDFD007F0390 /* Sources */,
+				129A77672DD9BDFD007F0390 /* Frameworks */,
+				129A77682DD9BDFD007F0390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129A776C2DD9BDFD007F0390 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				129A776D2DD9BDFD007F0390 /* autoOCRTests */,
+			);
+			name = autoOCRTests;
+			packageProductDependencies = (
+			);
+			productName = autoOCRTests;
+			productReference = 129A776A2DD9BDFD007F0390 /* autoOCRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		129A77732DD9BDFD007F0390 /* autoOCRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129A77842DD9BDFD007F0390 /* Build configuration list for PBXNativeTarget "autoOCRUITests" */;
+			buildPhases = (
+				129A77702DD9BDFD007F0390 /* Sources */,
+				129A77712DD9BDFD007F0390 /* Frameworks */,
+				129A77722DD9BDFD007F0390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129A77762DD9BDFD007F0390 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				129A77772DD9BDFD007F0390 /* autoOCRUITests */,
+			);
+			name = autoOCRUITests;
+			packageProductDependencies = (
+			);
+			productName = autoOCRUITests;
+			productReference = 129A77742DD9BDFD007F0390 /* autoOCRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		129A77542DD9BDFB007F0390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					129A775B2DD9BDFB007F0390 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					129A77692DD9BDFD007F0390 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 129A775B2DD9BDFB007F0390;
+					};
+					129A77732DD9BDFD007F0390 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 129A775B2DD9BDFB007F0390;
+					};
+				};
+			};
+			buildConfigurationList = 129A77572DD9BDFB007F0390 /* Build configuration list for PBXProject "autoOCR" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 129A77532DD9BDFB007F0390;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 129A775D2DD9BDFB007F0390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				129A775B2DD9BDFB007F0390 /* autoOCR */,
+				129A77692DD9BDFD007F0390 /* autoOCRTests */,
+				129A77732DD9BDFD007F0390 /* autoOCRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		129A775A2DD9BDFB007F0390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129A77682DD9BDFD007F0390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129A77722DD9BDFD007F0390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		129A77582DD9BDFB007F0390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129A77662DD9BDFD007F0390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129A77702DD9BDFD007F0390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		129A776C2DD9BDFD007F0390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 129A775B2DD9BDFB007F0390 /* autoOCR */;
+			targetProxy = 129A776B2DD9BDFD007F0390 /* PBXContainerItemProxy */;
+		};
+		129A77762DD9BDFD007F0390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 129A775B2DD9BDFB007F0390 /* autoOCR */;
+			targetProxy = 129A77752DD9BDFD007F0390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		129A777C2DD9BDFD007F0390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		129A777D2DD9BDFD007F0390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		129A777F2DD9BDFD007F0390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = autoOCR/autoOCR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = autoOCR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ds-ch.autoOCR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		129A77802DD9BDFD007F0390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = autoOCR/autoOCR.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = autoOCR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ds-ch.autoOCR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		129A77822DD9BDFD007F0390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ds-ch.autoOCRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autoOCR";
+			};
+			name = Debug;
+		};
+		129A77832DD9BDFD007F0390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ds-ch.autoOCRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/autoOCR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/autoOCR";
+			};
+			name = Release;
+		};
+		129A77852DD9BDFD007F0390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ds-ch.autoOCRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = autoOCR;
+			};
+			name = Debug;
+		};
+		129A77862DD9BDFD007F0390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ds-ch.autoOCRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = autoOCR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129A77572DD9BDFB007F0390 /* Build configuration list for PBXProject "autoOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129A777C2DD9BDFD007F0390 /* Debug */,
+				129A777D2DD9BDFD007F0390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		129A777E2DD9BDFD007F0390 /* Build configuration list for PBXNativeTarget "autoOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129A777F2DD9BDFD007F0390 /* Debug */,
+				129A77802DD9BDFD007F0390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		129A77812DD9BDFD007F0390 /* Build configuration list for PBXNativeTarget "autoOCRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129A77822DD9BDFD007F0390 /* Debug */,
+				129A77832DD9BDFD007F0390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		129A77842DD9BDFD007F0390 /* Build configuration list for PBXNativeTarget "autoOCRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129A77852DD9BDFD007F0390 /* Debug */,
+				129A77862DD9BDFD007F0390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 129A77542DD9BDFB007F0390 /* Project object */;
+}

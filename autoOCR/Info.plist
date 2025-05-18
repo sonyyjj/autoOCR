@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSScreenRecordingUsageDescription</key>
+	<string>이 앱은 화면의 특정 부분을 캡처하여 텍스트를 추출합니다.</string>
+	<key>LSUIElement</key>
+	<true/>
+</dict>
+</plist>
