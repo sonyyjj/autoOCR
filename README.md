@@ -80,4 +80,4 @@ open autoOCR.xcodeproj
 
 ## 라이선스
 
-미정 (TBD)
+[MIT](LICENSE) © 2026 truth0530
