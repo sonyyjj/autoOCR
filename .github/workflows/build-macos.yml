@@ -1,0 +1,49 @@
+name: Build autoOCR (macOS portable app)
+
+# 실행 방법: 이 파일을 포크한 저장소의 .github/workflows/ 에 넣고
+# GitHub 웹의 Actions 탭 → "Build autoOCR" → Run workflow 클릭
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: macos-15          # Xcode 16 포함 무료 macOS 빌드 서버
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode 16
+        run: sudo xcode-select -s /Applications/Xcode_16.4.app || sudo xcode-select -s /Applications/Xcode.app
+
+      - name: "Build (Universal - Apple Silicon + Intel)"
+        run: |
+          xcodebuild \
+            -project autoOCR.xcodeproj \
+            -target autoOCR \
+            -configuration Release \
+            ARCHS="arm64 x86_64" \
+            ONLY_ACTIVE_ARCH=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Ad-hoc sign with entitlements
+        run: |
+          APP="build/Release/autoOCR.app"
+          codesign --force --deep --sign - \
+            --entitlements autoOCR/autoOCR.entitlements \
+            "$APP"
+          codesign -dv "$APP"
+
+      - name: Zip portable app
+        run: |
+          cd build/Release
+          ditto -c -k --sequesterRsrc --keepParent autoOCR.app autoOCR-portable-macOS.zip
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: autoOCR-portable-macOS
+          path: build/Release/autoOCR-portable-macOS.zip
+          retention-days: 30
